@@ -1,4 +1,4 @@
-package com.senjoeson.bypasshelper;
+package com.senjoeson.bypasshelper.model;
 
 import java.io.Serializable;
 

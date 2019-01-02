@@ -2,6 +2,8 @@ package com.senjoeson.bypasshelper;
 
 import android.app.Application;
 
+import com.senjoeson.bypasshelper.base.AppDatabase;
+
 import androidx.room.Room;
 
 /**

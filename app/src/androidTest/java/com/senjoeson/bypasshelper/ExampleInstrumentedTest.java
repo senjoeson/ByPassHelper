@@ -2,6 +2,10 @@ package com.senjoeson.bypasshelper;
 
 import android.content.Context;
 
+import com.senjoeson.bypasshelper.base.AppDatabase;
+import com.senjoeson.bypasshelper.dao.SmsModelDao;
+import com.senjoeson.bypasshelper.model.SmsModel;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

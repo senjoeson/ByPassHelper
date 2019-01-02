@@ -1,4 +1,7 @@
-package com.senjoeson.bypasshelper;
+package com.senjoeson.bypasshelper.base;
+
+import com.senjoeson.bypasshelper.dao.SmsModelDao;
+import com.senjoeson.bypasshelper.model.SmsModel;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

@@ -1,4 +1,4 @@
-package com.senjoeson.bypasshelper;
+package com.senjoeson.bypasshelper.activity;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.senjoeson.bypasshelper.R;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

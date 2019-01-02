@@ -1,4 +1,6 @@
-package com.senjoeson.bypasshelper;
+package com.senjoeson.bypasshelper.dao;
+
+import com.senjoeson.bypasshelper.model.SmsModel;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.senjoeson.bypasshelper;
+package com.senjoeson.bypasshelper.recevier;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
+
+import com.senjoeson.bypasshelper.model.SmsModel;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
