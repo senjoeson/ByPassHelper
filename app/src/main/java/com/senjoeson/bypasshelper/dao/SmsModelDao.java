@@ -23,6 +23,6 @@ public interface SmsModelDao {
     List<SmsModel> findSmsModelById(int[] id);
 
     @Insert
-    void insert(SmsModel smsModel);
+    Long insert(SmsModel smsModel);
 }
 

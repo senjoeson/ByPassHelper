@@ -13,11 +13,13 @@ import androidx.room.Room;
 public class MyApplication extends Application {
 
 
-    public AppDatabase mAppDatabase;
+    public static AppDatabase mAppDatabase;
 
     @Override
     public void onCreate() {
         super.onCreate();
         mAppDatabase = Room.databaseBuilder(this, AppDatabase.class, "smsModel.db").build();
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.senjoeson.bypasshelper.recevier;
+package com.senjoeson.bypasshelper.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -57,7 +57,12 @@ public class SmsReceiver extends BroadcastReceiver {
         context.startActivity(intent);
     }
 
-
+    /**
+     * 检查号码是否是来自抢票软件自动推送的消息
+     *
+     * @param context
+     * @param smsModel
+     */
     public void checkSmsValid(Context context, SmsModel smsModel) {
         switch (smsModel.getPhoneNumber()) {
             case EMAIL_139CENTER:

@@ -13,7 +13,7 @@ import androidx.room.PrimaryKey;
 @Entity
 public class SmsModel implements Serializable {
 
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     @NonNull
     private long id;
     private String phoneNumber;
